@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(emptyPlugin)
+project(pluginName)
 
 # FindMaya.cmake directory
 set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake" )
