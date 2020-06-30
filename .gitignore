@@ -1,0 +1,10 @@
+# Build files
+build/*
+
+# Compiled files
+*.so
+*.bundle
+*.mll
+*.ilk
+*.pdb
+*.pyc
