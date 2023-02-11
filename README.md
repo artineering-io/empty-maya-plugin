@@ -6,16 +6,16 @@ After configuration (see [Usage](#Usage)), the framework will build plugins usin
 
 ## Requirements
 
-* [CMAKE](https://cmake.org/download/) 2.8+
+* [CMAKE](https://cmake.org/download/) 3.1+
 * [Maya](https://www.autodesk.com/products/maya/overview) 2017+
-* [Visual Studio](https://visualstudio.microsoft.com/) 2017 or 2019 (Community, Professional, Enterprise)
+* [Visual Studio](https://visualstudio.microsoft.com/) 2017, 2019, 2022 (Community, Professional, Enterprise)
 
 ## Usage
 
 1. Clone the repository where you want to have your plug-in and source files
 2. Replace "pluginName" with the name of your plug-in in the following files
     * _pluginName.mod_ (in the content for each supported _Maya_ version and also the file name)
-    * _CMakeLists.txt_ (at the beginning: project(pluginName))
+    * _CMakeLists.txt_ (at the beginning: project(_pluginName_))
 3. Run the _buildWindowsDebug.bat_ to create the _Visual Studio Solution_ and build the plug-in for the version of _Maya_ that you are using
 4. Once built, open _Maya_
 5. Drag and drop the _install.mel_ file into the Maya viewport

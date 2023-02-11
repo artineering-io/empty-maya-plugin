@@ -28,3 +28,7 @@ PATH+:=plug-ins/2022
 + MAYAVERSION:2023 PLATFORM:win64 pluginName 1.0 ./
 plug-ins: plug-ins/2023
 PATH+:=plug-ins/2023
+
++ MAYAVERSION:2024 PLATFORM:win64 pluginName 1.0 ./
+plug-ins: plug-ins/2024
+PATH+:=plug-ins/2024

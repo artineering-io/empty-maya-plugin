@@ -6,9 +6,11 @@ cd %~dp0%build
 set /p M_YEAR=Maya version (year): 
 set VS[0]="Visual Studio 15 2017 Win64"
 set VS[1]="Visual Studio 16 2019"
+set VS[2]="Visual Studio 17 2022"
 echo Build with either:
 echo - [0] for [%VS[0]%]
 echo - [1] for [%VS[1]%]
+echo - [2] for [%VS[2]%]
 set VS_OPTION=0
 set /p "VS_OPTION=Enter build generator: "
 set M_GEN=!VS[%VS_OPTION%]!
